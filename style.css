@@ -31,3 +31,66 @@
 .pr:hover .text {
     z-index: 2;
 }
+
+@media (min-width:992px) {
+    .ft1 {
+        border-right: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    .ft2 {
+        border-right: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    .ft3 {
+        border-bottom: 1px solid lightgray;
+    }
+
+    .ft4 {
+        border-right: 1px solid lightgray;
+    }
+    .ft5 {
+        border-right: 1px solid lightgray;
+    }
+}
+@media (max-width:991px) {
+    .ft1 {
+        border-right: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    .ft2 {
+        border-bottom: 1px solid lightgray;
+    }
+    .ft3 {
+        border-bottom: 1px solid lightgray;
+        border-right: 1px solid lightgray;
+    }
+
+    .ft4 {
+        border-bottom: 1px solid lightgray;
+    }
+    .ft5 {
+        border-right: 1px solid lightgray;
+    }
+}
+@media (max-width:576px) {
+    .ft1 {
+        border-bottom: 1px solid lightgray;
+    }
+    .ft2 {
+        border-bottom: 1px solid lightgray;
+    }
+    .ft3 {
+        border-bottom: 1px solid lightgray;
+    }
+
+    .ft4 {
+        border-bottom: 1px solid lightgray;
+    }
+    .ft5 {
+        border-bottom: 1px solid lightgray;
+    }
+    .ft6 {
+        border-bottom: 1px solid lightgray;
+    }
+    
+}
